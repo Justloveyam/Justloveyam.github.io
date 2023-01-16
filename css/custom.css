@@ -1,3 +1,5 @@
+@import "//at.alicdn.com/t/c/font_3865813_j3dzfp2jla.js";
+
 /* 页脚与头图透明 */
 #footer {
     background: transparent !important;
@@ -416,4 +418,22 @@ h6::before {
   ::-moz-selection {
     color: #fff;
     background-color: var(--theme-color);
+  }
+
+  /*阿里图标设置*/
+  .iconfont {
+    font-family: "iconfont" !important;
+    /* 这里可以自定义图标大小 */
+    font-size: 3em;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  svg.icon {
+    width: 1.28em;
+    height: 1.28em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
   }
