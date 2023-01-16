@@ -1,8 +1,8 @@
 var stop, staticx;
 var img = new Image();
 // 将引入的图片文件替换为你想要的即可
-// img.src = "https://img.cdn.nesxc.com/upload/wordpress/202202251325420webp";
-img.src = "https://picture-bag01.pages.dev/Background02.jpg";
+img.src = "https://img.cdn.nesxc.com/upload/wordpress/202202251325420webp";
+// img.src = "https://picture-bag01.pages.dev/Background02.jpg";
 
 function Sakura(x, y, s, r, fn) {
     this.x = x;
